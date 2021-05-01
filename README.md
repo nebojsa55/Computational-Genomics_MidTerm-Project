@@ -1,1 +1,2 @@
-# DREAM-Preterm-Birth-Prediction-Challenge
+# Mid-term project in Computational Genomics
+
