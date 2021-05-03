@@ -29,6 +29,7 @@ pip install -r requirements.txt
 ```
 
 ## Table of contents and results
+
 The project is divided into **3** [Jupyter notebooks](https://github.com/nebojsa55/Computational-Genomics_MidTerm-Project/tree/master/notebooks), which simulate the thought flow that went to building the model. The main metric regression score was **RMSE (root mean square error)**.
 1. [Basic-regression-models.ipybn](https://github.com/nebojsa55/Computational-Genomics_MidTerm-Project/blob/master/notebooks/1.%20Basic-regression-models.ipynb)
    - Samples were standard scaled according to the belonging batch
@@ -36,6 +37,8 @@ The project is divided into **3** [Jupyter notebooks](https://github.com/nebojsa
    - **Random Forest Regressor** and **Support Vector regressor** were tested as they are one of the most common ML models used in literature
    - Hyperparameter cross-validation and 10-fold cross-validation were performed in order to get the best model possible
    - RMSE(RFR) = **7.5441**  ;  RMSE(SVR) = **8.4081** 
+   
+   
 2. [Better-model.ipybn](https://github.com/nebojsa55/Computational-Genomics_MidTerm-Project/blob/master/notebooks/2.%20Better-model.ipynb)
    - Samples were standard scaled according to the belonging batch
    - Instead of PCA, features were selected according to the [*f_regression*](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.f_regression.html) score and [*SelectKBest*](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectKBest.html) class from *sklearn.feature_selection* module
