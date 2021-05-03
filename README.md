@@ -43,10 +43,10 @@ The project is divided into **3** [Jupyter notebooks](https://github.com/nebojsa
    - Samples were standard scaled according to the belonging batch
    - Instead of PCA, features were selected according to the [*f_regression*](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.f_regression.html) score and [*SelectKBest*](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectKBest.html) class from *sklearn.feature_selection* module
    - Samples from the set **'GSE113966'** were dropped as they seem to be outliers (32 in total)
-   - Random Forest Regressor and Support Vector regressor were tested with the parameters found in notebook 1 through different parameter **K** to find the optimal number of features to use. After that 10-fold cross-validation was performed
+   - Random Forest Regressor and Support Vector regressor were tested with the parameters found in notebook 1 through different parameter **K** to find the optimal number of features to use. After that, 10-fold cross-validation was performed
    - RMSE(RFR) = **5.9324**  ;  RMSE(SVR) = **8.0756** 
 3. [Linear-regression.ipybn](https://github.com/nebojsa55/Computational-Genomics_MidTerm-Project/blob/master/notebooks/3.%20Linear-regression.ipynb)
    - Samples were standard scaled according to the belonging batch
-   - Only linear regressor [**ElasticNet**](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.ElasticNet.html) was considered, as results from the previous notebook sugest that linear regressors are most suitable for this dataset (*f_regression* score is linear regression test) 
-   - 10-fold cross-validation was performed to find optimal parameters for *ElasticNet* regressor and cross-validation was performed for the paremeter K in *SelectKBest*
+   - Only linear regressor [**ElasticNet**](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.ElasticNet.html) was considered, as results from the previous notebook suggest that linear regressors are most suitable for this dataset (*f_regression* score is linear regression test) 
+   - 10-fold cross-validation was performed to find optimal parameters for *ElasticNet* regressor and cross-validation was performed for the parameter K in *SelectKBest*
    - RMSE(EN) = **4.9283**
