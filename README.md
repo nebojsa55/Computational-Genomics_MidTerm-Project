@@ -4,7 +4,7 @@
 
 This project was completed as part of the [Computational Genomics](https://www.etf.bg.ac.rs/en/fis/karton_predmeta/13M111GI-2013#gsc.tab=0) course at the University of Belgrade, [School of Electrical Engineering](https://www.etf.bg.ac.rs/en).
 
-The goal was to predict gestational age in pregnant women by analyzing gene expression via **Regression Models**.
+The goal was to predict [gestational age](https://en.wikipedia.org/wiki/Gestational_age) in pregnant women by analyzing gene expression via **Regression Models**.
 
 ## Data
 
