@@ -10,7 +10,9 @@ The goal was to predict [gestational age](https://en.wikipedia.org/wiki/Gestatio
 
 <a href = 'https://www.synapse.org/#!Synapse:syn18380862/wiki/590485'><img src="docs/Preterm Birth Prediction Banner.png" style="float: left; margin-right: 10px;" /></a>
 
-The data used was from **DREAM Preterm Birth prediction challenge**. *To learn more please click on the picture above*
+The Datasets used for the analyses described in this manuscript (or publication) were contributed by Wayne State University School of Medicine Perinatal Initiative and by the Perinatology Research Branch, Division of Obstetrics and Maternal-Fetal Medicine, Division of Intramural Research, Eunice Kennedy Shriver National Institute of Child Health and Human Development, National Institutes of Health, U.S. Department of Health and Human Services (NICHD/NIH/DHHS); and, in part, with Federal funds from NICHD/NIH/DHHS under Contract No. HHSN275201300006C. They were obtained as part of the DREAM Preterm Birth Prediction Challenge through Synapse (syn18380862), managed by Sage Bionetworks.
+
+*To learn more please click on the picture above.*
 
 Data stats:
 
