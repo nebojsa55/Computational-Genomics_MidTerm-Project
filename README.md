@@ -32,8 +32,12 @@ pip install -r requirements.txt
 The project is divided into **3** [Jupyter notebooks](https://github.com/nebojsa55/Computational-Genomics_MidTerm-Project/tree/master/notebooks), which simulate the thought flow that went to building the model. The main metric regression score was **RMSE (root mean square error)**.
 1. [Basic-regression-models.ipybn](https://github.com/nebojsa55/Computational-Genomics_MidTerm-Project/blob/master/notebooks/1.%20Basic-regression-models.ipynb)
    - Samples were standard scaled according to the belonging batch
-   - PCA analysis was performed to acquire a minimum number of components to account for 95% variance
-   - Random Forest Regressor and Support Vector regressor were tested as they are one of the most common ML models used in literature
+   - **PCA** analysis was performed to acquire a minimum number of components to account for 95% variance
+   - **Random Forest Regressor** and **Support Vector regressor** were tested as they are one of the most common ML models used in literature
    - Hyperparameter cross-validation and 10-fold cross-validation were performed in order to get the best model possible
    - RMSE(RFR) = **7.5441**  RMSE(SVR) = **8.4081** 
-
+2. [Better-model.ipybn](https://github.com/nebojsa55/Computational-Genomics_MidTerm-Project/blob/master/notebooks/2.%20Better-model.ipynb)
+   - Samples were standard scaled according to the belonging batch
+   - Instead of PCA, features were selected according to the [*f_regression*](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.f_regression.html) score and [*SelectKBest*](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectKBest.html) class from *sklearn.feature_selection* module
+   - Random Forest Regressor and Support Vector regressor were tested with the parameters found in notebook 1 through different parameter **K** to find the optimal number of features to use. After that 10-fold cross-validation was performed
+   - RMSE(RFR) = **5.9324**  RMSE(SVR) = **8.0756** 
