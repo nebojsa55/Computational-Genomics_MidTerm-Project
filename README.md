@@ -52,3 +52,13 @@ The project is divided into **3** [Jupyter notebooks](https://github.com/nebojsa
    - Only linear regressor [**ElasticNet**](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.ElasticNet.html) was considered, as results from the previous notebook suggest that linear regressors are most suitable for this dataset (*f_regression* score is linear regression test) 
    - 10-fold cross-validation was performed to find optimal parameters for *ElasticNet* regressor and cross-validation was performed for the parameter K in *SelectKBest*
    - RMSE(EN) = **4.9283**
+
+4. [Best genes]
+
+| Feature label |  Gene symbol  | Description  | K score |
+|:----------:|:-------------:|------|:--------:|
+| 199675_at |  MCEMP1 | This gene encodes a single-pass transmembrane protein. Based on its expression pattern, it is speculated to be involved in regulating mast cell differentiation or immune responses |72.28|
+| 2359_at | FPR3 | FPR3 (Formyl Peptide Receptor 3) is a Protein Coding gene. Diseases associated with FPR3 include [Rubeosis Iridis](https://www.malacards.org/card/rubeosis_iridis).  Gene Ontology (GO) annotations related to this gene include G protein-coupled receptor activity and N-formyl peptide receptor activity| 62.60 |
+| 3507_at | IGHM | IGHM (Immunoglobulin Heavy Constant Mu) is a Protein Coding gene. Diseases associated with IGHM include [Agammaglobulinemia 1](https://www.malacards.org/card/agammaglobulinemia_1_autosomal_recessive), [Autosomal Recessive](https://www.malacards.org/card/agammaglobulinemia_1_autosomal_recessive) and [Agammaglobulinemia, Non-Bruton Type](https://www.malacards.org/card/agammaglobulinemia_non_bruton_type). Gene Ontology (GO) annotations related to this gene include single-stranded DNA binding and phosphatidylcholine binding | 57.93 |
+| 9619_at | ABCG1 | The protein encoded by this gene is a member of the superfamily of ATP-binding cassette (ABC) transporters. ABC proteins transport various molecules across extra- and intra-cellular membranes. ABC genes are divided into seven distinct subfamilies (ABC1, MDR/TAP, MRP, ALD, OABP, GCN20, White). This protein is a member of the White subfamily. It is involved in macrophage cholesterol and phospholipids transport, and may regulate cellular lipid homeostasis in other cell types. Six alternative splice variants have been identified. | 57.83 |
+| 6689_at | SPIB | The protein encoded by this gene is a transcriptional activator that binds to the PU-box (5'-GAGGAA-3') and acts as a lymphoid-specific enhancer. Four transcript variants encoding different isoforms have been found for this gene | 52.16|
