@@ -1,6 +1,6 @@
 <a href = 'https://github.com/scikit-learn/scikit-learn'><img src="https://img.shields.io/badge/scikit--learn-0.24.1-blueviolet" style="float: left; margin-right: 10px;" /></a> <a href = 'https://github.com/vladimirkovacevic/gi-2021-etf'><img src="https://img.shields.io/badge/gi--2021-etf-blue" style="float: left; margin-right: 10px;" /></a> 
 
-# Preterm Birth Prediction Challenge
+# Preterm Birth Prediction by Gene Expression
 
 This project was completed as part of the [Computational Genomics](https://www.etf.bg.ac.rs/en/fis/karton_predmeta/13M111GI-2013#gsc.tab=0) course at the University of Belgrade, [School of Electrical Engineering](https://www.etf.bg.ac.rs/en).
 
