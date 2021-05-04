@@ -53,8 +53,10 @@ The project is divided into **3** [Jupyter notebooks](https://github.com/nebojsa
    - 10-fold cross-validation was performed to find optimal parameters for *ElasticNet* regressor and cross-validation was performed for the parameter K in *SelectKBest*
    - RMSE(EN) = **4.9283**
 
-4. [Best genes]
+4. [Gene-importance.ipybn](https://github.com/nebojsa55/Computational-Genomics_MidTerm-Project/blob/master/notebooks/4.%20Gene-importance.ipynb)
 
+   - The top 10 features (genes) were plotted, and the top 5 were presented in the table below, with their respective **gene symbol**, **description** (acquired from https://www.genecards.org/) and **K-score**:
+   
 | Feature label |  Gene symbol  | Description  | K score |
 |:----------:|:-------------:|------|:--------:|
 | 199675_at |  MCEMP1 | This gene encodes a single-pass transmembrane protein. Based on its expression pattern, it is speculated to be involved in regulating mast cell differentiation or immune responses |72.28|
