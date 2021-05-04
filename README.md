@@ -51,7 +51,7 @@ The project is divided into **3** [Jupyter notebooks](https://github.com/nebojsa
    - Samples were standard scaled according to the belonging batch
    - Only linear regressor [**ElasticNet**](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.ElasticNet.html) was considered, as results from the previous notebook suggest that linear regressors are most suitable for this dataset (*f_regression* score is linear regression test) 
    - 10-fold cross-validation was performed to find optimal parameters for *ElasticNet* regressor and cross-validation was performed for the parameter K in *SelectKBest*
-   - RMSE(EN) = **4.9283**
+   - RMSE(EN) = **4.9283** :heavy_check_mark:
 
 4. [Gene-importance.ipybn](https://github.com/nebojsa55/Computational-Genomics_MidTerm-Project/blob/master/notebooks/4.%20Gene-importance.ipynb)
 
