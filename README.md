@@ -21,7 +21,7 @@ Data stats:
 | 735 |  367 | 368 |32 830|
 
 *DISCLAIMER*:
-Gestational age in testing data was not provided due to the nature of the challenge. Because of that, this model was implemented and tested using only 367 samples from the initial training set. **The challenge ended in 2019. and this implementation was not an active part of the challenge**
+**The challenge ended in 2019. and this implementation was not an active part of the challenge**
 
 ## Requirements
 
